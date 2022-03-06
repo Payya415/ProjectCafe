@@ -1,0 +1,60 @@
+.header-cafe{
+    width:100%;
+    text-align:center;
+    margin: 1.5em 0;
+    font-size: 1.5rem;
+    margin-bottom: 0px;
+    cursor: pointer;
+}
+.cafe-navbar {
+    list-style-type: none;
+    margin-left:130px;
+    margin-right: 130px;
+    padding: 0 1.5em;
+    overflow: hidden;
+    background-color:  rgb(230, 230, 230);
+    /* rgb(231, 230, 230) */
+    /* #f1eeee */
+    font-size: 1.2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border:1px solid #d8d8d8;
+    text-transform: uppercase;
+    opacity: 0.90;
+}
+.cafe-item {
+    float: left;
+} 
+.cafe-item a {
+    display: block;
+    color: rgb(29, 28, 28);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    position: relative;
+}
+.menu-cafe{
+    border-right:2px solid rgb(255, 252, 252);
+}
+.cafe-item a:hover{
+    background-color: rgb(209, 209, 209);
+    border:1px solid rgb(190, 188, 188);
+    color: rgb(59, 59, 59);
+    text-decoration:none;
+    opacity: 1;
+}
+.cafe-item a::before {
+    transition: 400ms;
+    height: 3px;
+    content: "";
+    position: absolute;
+    background-color: #535353;
+  }
+  
+.cafe-item a::before {
+    width: 0%;
+    bottom: 10px;
+  }
+  
+.cafe-item a:hover::before {
+    width: 50%;
+  }

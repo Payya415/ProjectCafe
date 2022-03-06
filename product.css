@@ -1,0 +1,64 @@
+*{
+    margin:0;
+    padding:0;
+}
+table{
+    
+    text-align:center;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+}
+table,th,tr,td{
+    border: 1px solid #000;
+    text-align: left;
+    padding: 8px;
+}
+tr:nth-child(even) {
+background-color: #dddddd;
+
+}
+button {
+    border: none;
+    color: black;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+.addproduct {background-color: #35E08A;
+        color: white; 
+}
+.addproduct:hover {
+    background-color: #DAF7A6;
+    color: #35E08A;
+}
+.delete  {background-color: #C70039;
+        color: white; 
+}
+.delete:hover {
+    background-color: white;
+    color: #C70039;
+}
+.editproduct {background-color: #FFC300;}
+.editproduct:hover {
+    background-color: white;
+    color: #FFC300;
+}
+.btn-success:hover{
+    background-color: #21BDDC;
+    color: white;
+
+}
+.sum:hover{
+    background-color: #FFBC71 ;
+    color: white;
+}
+.from-control{
+    border-radius: 35px;
+    width: 15%;
+    padding: 10px;
+}

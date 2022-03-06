@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: 100vh;
+}
+.register{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(73, 73, 73);
+    /* color: dimgray; */
+}
+.buyit{
+    width:20%;
+    margin: 2em auto;
+    padding: 2em;
+    border:3px solid rgb(77, 76, 76);
+    border-radius: 80px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+}
+.ccccc{
+    width:70%;
+    margin: 1em auto;
+}
+.ccccc h2{
+    font-size: 200%;
+}
+.from_inside{
+    width:100%;
+    margin: 2em auto;
+}
+.ccccc .from_button{
+    width:100%;
+    text-align: center;
+}
+.ccccc button{
+    width:70%;
+    height: 50px;
+    background-color: rgb(216, 216, 216);
+    color: black;
+    border-radius: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    font-size: large;
+}
+.from_inside p{
+    font-size:large;
+}
+input{
+    width:100%;
+    height: 2.5em;
+    font-size:medium;
+    padding-left: 2em;
+    border: 3px solid rgb(95, 93, 93);
+    border-radius: 20px;
+}
+.dangerus{
+    color:red;
+    margin: 1em 0 0 1em;
+}
